@@ -9,6 +9,7 @@ public class Concatenation {
 			String s = sc.next();
 			String a = sc.next();
 			System.out.println(s+a);
+			sc.close();
 			
 			
 			

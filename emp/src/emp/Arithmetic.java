@@ -1,9 +1,7 @@
-package com.Rogersoft.javaprograms.methods;
+package emp;
 
-import java.util.Scanner;
-public class Arithmaticoperation {
-
-	public static void main(String[] args) {
+public class Arithmetic {
+public static void main(String[] args) {
 		
 		sample s = new sample();
 		subt s1 = new subt();
@@ -13,20 +11,9 @@ public class Arithmaticoperation {
 		s1.sub(6,7);
 		s2.multiply(5,5,5);
 		s3.mod(3,3);
-		
-		
-		
-		
-		
-		
-		
-		
-
-	}
-
+	
 }
-
-
+}
 class sample
 {
 	void sum(int a,int b)
@@ -52,7 +39,7 @@ class sample
 	}
 	class divi
 	{
-	void mod ()
+	void mod (int a,int b)
 	
 	{
 		//Scanner sc = new Scanner (System.in);
@@ -60,6 +47,18 @@ class sample
 		   //    b = sc.next();
 		       System.out.println(a/b);
 	}
-}
+	}
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	
